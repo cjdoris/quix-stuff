@@ -1,27 +1,27 @@
-> This is a Quix Command File
->
-> For the syntax of this file, please refer to https://www.quixapp.com/syntax/
->
-
 #kill-defaults
 
-@Basic commands
-@These are the most basic commands Quix offers, but possibly also the most powerful ones.
-d       http://www.google.com/search?q=define:%s							Google Define a word
-dict	http://www.google.com/dictionary?langpair=en%7Cen&q=%s&hl=en&aq=f	Google Dictionary for a word
-e       mailto:?subject=%t&body=%s%0A%0A%09%r%0A%0A							Email link
-g       http://www.google.com/search?q=%s									Google Search
-imdb    http://www.imdb.com/find?s=all&q=%s									IMDB Search
-img     http://www.google.com/images?q=%s									Google Image Search
-map     http://www.google.com/maps?q=%s										Google Maps
-gs      http://www.google.com/search?q=site:%d%20%s							Search the current site with Google
-tr      http://translate.google.com/translate?u=%r&tl=%s					Translate the current page
-w       http://wikipedia.org/wiki/Special:Search/%s_         				Wikipedia Search
-read 	script://www.readability.com/bookmarklet/read.js					Readability
-wa		http://www.wolframalpha.com/input/?i=%s								Wolfram Alpha Search
+@Google
+g       http://www.google.com/search?q=%s                 Google Search
+gs      http://www.google.com/search?q=site:%d%20%s             Search the current site with Google
+img     http://www.google.com/images?q=%s                 Google Image Search
+map     http://www.google.com/maps?q=%s                   Google Maps
+tr      http://translate.google.com/translate?u=%r&tl=%s          Translate the current page
+d       http://www.google.com/search?q=define:%s              Google Define a word
+dict  http://www.google.com/dictionary?langpair=en%7Cen&q=%s&hl=en&aq=f Google Dictionary for a word
 
-@Maths commands
+@Maths
 mag https://magma.maths.usyd.edu.au/magma/handbook/search?query=%s&chapters=1&examples=1&intrinsics=1 Search the Magma handbook
 magc https://magma.maths.usyd.edu.au/magma/handbook/search?query=%s&chapters=1&examples=0&intrinsics=0 Search the Magma handbook for chapters
 mage https://magma.maths.usyd.edu.au/magma/handbook/search?query=%s&chapters=0&examples=1&intrinsics=0 Search the Magma handbook for examples
 magi https://magma.maths.usyd.edu.au/magma/handbook/search?query=%s&chapters=0&examples=0&intrinsics=1 Search the Magma handbook for intrinsics
+mo http://mathoverflow.net/search?q=%s Search Math Overflow
+mse http://math.stackexchange.com/search?q=%s Search math.stackexchange.com
+
+@Tools
+e       mailto:?subject=%t&body=%s%0A%0A%09%r%0A%0A             Email link
+read  script://www.readability.com/bookmarklet/read.js          Readability
+
+@Misc
+imdb    http://www.imdb.com/find?s=all&q=%s                 IMDB Search
+w       http://wikipedia.org/wiki/Special:Search/%s_                Wikipedia Search
+wa    http://www.wolframalpha.com/input/?i=%s               Wolfram Alpha Search
